@@ -1,4 +1,4 @@
-# Ledger App with Go & Postgres
+# Ledger App with Go[echo-gorm] & Postgres
 There are two roles as user and admin.
 
 ### user:
