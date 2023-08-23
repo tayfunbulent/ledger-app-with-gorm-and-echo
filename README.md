@@ -28,7 +28,13 @@ There are two roles as user and admin.
 - If a transaction is interrupted, a rollback is performed.
 - All transactions are recorded. Any user's balance value from a time in the past can be retrieved this way.
 - There are three different tables in total. [Transactions, Users, Wallets]
-
+- If database has not any "admin" role, created one whit this informations
+```
+- Username: "admin",
+- Email:    "admin@admin.com",
+- Password: "admin1234",
+- Role:     "admin"
+```
 ## POST Methods
 ### http://localhost:8080/app/services/users/create
 ```
